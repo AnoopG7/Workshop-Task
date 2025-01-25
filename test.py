@@ -1,7 +1,7 @@
 class Cylinder:
   def _init_(self, radius, height): 
         self.radius = radius
-        self.height = height
+        self.height = height chota hai
         
   def vol(self, h, r ):
     return 3.14 * h * r ** 2
@@ -19,4 +19,3 @@ are=a.Area(5,7)
 print("The area of the cylinder is ", are)
 curve = a.csa(10,20)
 print("The CSA of Cylinder is ",curve)
-
